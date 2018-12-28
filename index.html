@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="Ru-ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<form method="get">
+
+		<div>
+			Имя:
+			<input type="text" placeholder="Введите имя" required> <br>     	
+			Фамилия:
+			<input type="text"  placeholder="Введите фамилию" required>        	
+		</div>
+
+		<div>
+			Образование:
+			<select name="education">
+				<option>Среднее</option>
+				<option>Высшее</option>
+			</select>		 	
+		</div>
+
+		<div>
+			Пол:
+			M	<input type="radio" name="gender"> 
+			Ж 	<input type="radio" name="gender">     	
+		</div>
+
+		<div>
+			Согласен на обработку личных данных:
+			<input type="checkbox">
+		</div>
+
+		<div>
+			<input type="reset" name="button" value="Сброс"> 
+			<input type="submit" name="button" value="Отправить">
+		</div>
+			
+	</form>
+	
+
+	
+</body>
+</html>
